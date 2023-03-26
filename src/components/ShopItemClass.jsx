@@ -1,6 +1,6 @@
 import React from "react";
 
-class ShopItemFunc extends React.Component {
+class ShopItemClass extends React.Component {
   render() {
     const { brand, title, description, descriptionFull, currency, price } =
       this.props.item;
@@ -27,4 +27,4 @@ class ShopItemFunc extends React.Component {
   }
 }
 
-export default ShopItemFunc;
+export default ShopItemClass;
